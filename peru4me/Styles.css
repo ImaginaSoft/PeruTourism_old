@@ -1,0 +1,253 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+BODY
+{
+	font-size: 9pt;
+	background: url(images/fondo.gif) #ffffbb;
+	word-spacing: normal;
+	text-transform: none;
+	color: #536826;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: normal;
+}
+
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+	font-weight: bold;
+	font-size: 11pt;
+	color: #536826;
+	font-family: Verdana, Arial;
+}
+H1
+{
+	font-weight: 700;
+	font-size: 14pt;
+	word-spacing: normal;
+	text-transform: none;
+	color: #536826;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: normal;
+	text-decoration: none;
+}	
+		
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3
+{
+	font-weight: bold;
+	font-size: 11pt;
+	word-spacing: normal;
+	color: #ffffff;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: normal;
+	background-color: steelblue;
+	text-decoration: none;
+}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	12pt;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	font-size:	11pt;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+
+
+A:link
+{
+	font-size: 10pt;
+	color: mediumblue;
+	text-decoration: underline;
+}	
+		
+A:visited
+{
+	font-size: 10pt;
+	color: steelblue;
+	text-decoration: underline;
+}	
+		
+A:active
+{
+	color: mediumblue;
+	text-decoration: none;
+}	
+		
+A:hover
+{
+	color: #3333cc;
+	background-color: #ffcc66;
+	text-decoration: none;
+}
+
+
+/* Data Grid */
+
+/*.Grid 
+{   
+	font-family: Verdana;
+	font-size: 9pt;
+	Border-Color: CadetBlue; 
+	background: #888672; 
+}
+*/.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: right;
+}
+.style5 {font-size: 24px}
+.styleCantProp {font-size: 24px}
+
+	.style8 { FONT-WEIGHT: bold; COLOR: #384a0d; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style10 { FONT-SIZE: 18px }
+	.style12 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #384a0d; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style13 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style14 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #bd0000; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style15 { FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style16 { FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style17 { FONT-SIZE: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style18 { FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #384a0d; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style19
+
+	.style12 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #384a0d; FONT-FAMILY: Arial, Helvetica, sans-serif }
+
+{
+	font-weight: bold;
+	font-size: 15px;
+	color: #9d2385;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	.style20
+{
+	font-size: 18px;
+	color: #9d2385;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	.style21
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #CC3300;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+	.style22
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #9d2385;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+	.style23 { FONT-SIZE: 18px }
+	.style24 { FONT-SIZE: 14px;  COLOR: #384a0d; FONT-FAMILY: Arial, Helvetica, sans-serif }
+	.style25
+{
+	font-weight: bold;
+	font-size: 14px;
+	color: #0000FF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	.style26 { FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #384a0d; FONT-FAMILY: Arial, Helvetica, sans-serif }
+
+
+
+	.GridHeader { FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(images/fondo_iti_tit.gif) }
+	.GridFooter { FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(images/fondo_iti_tit.gif) }
+
+	.SubTitInf
+{
+	font-weight: bold;
+	font-size: 10pt;
+	background-image: url(images/fondo_iti_tit.gif);
+}
+
+	.SubTitInfNota
+{
+/*	font-weight: bold; */
+	font-size: 10pt;
+	background-image: url(images/fondo_iti_tit.gif);
+}
+
+.GridCab
+
+{
+	font-weight: bold;
+	color: #536826;
+	BACKGROUND-IMAGE: url(images/fondo_iti_tit.gif);
+	font-size: 9pt;
+
+}
+
+
+
+
+
+

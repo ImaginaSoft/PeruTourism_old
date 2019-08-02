@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Ups Archivo no encontrado, error 404- Perutourism</title>
+<meta name="robots" content="index, follow, noodp" />
+<link rel="stylesheet" href="http://www.perutourism.com/scripts/normalize.css"/>
+<link rel="stylesheet" href="http://www.perutourism.com/scripts/style.css" type="text/css" media="screen, projection"/>
+<link rel="stylesheet" href="http://www.perutourism.com/style/perutourism.css" type="text/css"/>
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="http://www.perutourism.com/scripts/ie.css" type="text/css" media="screen, projection"/>
+<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  
+<script type="text/javascript" src="http://www.perutourism.com/scripts/main.js"></script>
+
+</head>
+<body>
+	<div class="centrar_page">
+		<div id="header">
+	<div itemscope itemtype="http://schema.org/Organization">
+		<a itemprop="url" href="http://www.perutourism.com/" title="PeruTourism Travel Agency">
+    		<img itemprop="logo" src="http://www.perutourism.com/logo-perutourism.png" alt="PeruTourism Travel Agency" class="float_left" />
+		</a>
+	</div>
+    <div class="link_language">
+        <a style="font-size: 12px;" href="http://www.peru-turismo.com/">VERSIÓN
+            EN ESPAÑOL</span></a>
+			<a href="http://www.peru-turismo.com/"><img src="http://www.perutourism.com/images/banderaespana.jpg" alt="spanish_version" align="middle" /></a>
+        <div class="apDiv66">
+            <div class="peruvian_time">
+                Peruvian time
+                <iframe class="creloj"
+                    src="http://free.timeanddate.com/clock/i3f40fwy/n131/fn17/fs12/fc06f/ftb"></iframe>
+            </div>
+        </div>
+    </div>
+	<div class="customers_travel_experiences">
+		<a href="http://blog.perutourism.com/"><img src="http://www.perutourism.com/images/link-travel-experience.jpg" /></a>
+	</div>
+    <div style="clear: both"></div>
+    <div>
+        <ul class="nav">
+            <li><a href="http://www.perutourism.com/" class="home">Home</a>
+            </li>
+            <li><a href="#" class="travel_to_peru">Travel To Peru</a>
+                <ul>
+                    <li class="border_inicio"><a href="http://www.perutourism.com/get-a-personal-quote">Free
+                            and Fast Quotation</a>
+                    </li>
+                    <li><a href="http://www.perutourism.com/destination/tours" class="flecha" title="Destination Tours">Destination
+                            Tours</a>
+                        <ul style="right: -337px; top: 0px">
+                            <li class="border_inicio"><a href="http://www.perutourism.com/destination/cusco-machu-picchu" title="Cusco and Machu Picchu">Cusco and Machu Picchu (8 days)</a>
+                            </li>
+                            <li><a href="http://www.perutourism.com/destination/family-trip-to-peru" title="Family trip to Peru">Family
+                                    trip to Peru (9 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/machu-picchu-and-nasca-line-tour" title="Machu Picchu and Nasca">Machu
+                                    Picchu and Nasca (9 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/machu-picchu-and-titicaca-lake" title="Machu Picchu and Titicaca Lake">Machu
+                                    Picchu & Titicaca Lake (10 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/machu-picchu-and-the-rainforest" title="Machu Picchu and The Rainforest">Machu
+                                    Picchu & The Rainforest (10 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/inca-trail-to-machu-picchu" title="Inca Trail to Machu Picchu">Inca
+                                    Trail to Machu Picchu (12 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/from-the-andes-to-the-rainforest-tour" title="From the Amazon to the Rainforest">From
+                                    the Amazon to the Rainforest (14 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/machu-picchu-and-the-amazon" title="Machu Picchu and The Amazon">Machu
+                                    Picchu & The Amazon (12 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/machu-picchu-and-galapagos-cruises" title="Machu Picchu and Galapagos Cruises">Machu
+                                    Picchu & Galapagos Cruises (14 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/wonders-of-peru-and-bolivia-tour" title="Wonders of Peru and Bolivia">Wonders
+                                    of Peru & Bolivia (14 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/machu-picchu-and-easter-island" title="Machu Picchu and Easter Island">Machu
+                                    Picchu & Easter Island (15 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/destination/total-peru-tour" title="Total Peru">Total
+                                    Peru (21 days)</a>
+                            </li>
+                        </ul></li>
+                    <li ><a href="http://www.perutourism.com/thematic/tours" class="flecha" title="Thematic Tours">Thematic
+                            Tours</a>
+                        <ul style="right: -360px; top: 0px">
+
+                            <li class="border_inicio"><a
+                                href="http://www.perutourism.com/thematic/honeymoon-vacation-package" title="Honeymoon in Machu Picchu">Honeymoon
+                                    in Machu Picchu (8 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/thematic/inti-raymi-festival-tour" title="Inti Raymi Tour">Inti
+                                    Raymi Tour (9 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/thematic/relax-in-cusco" title="Relax in Cusco">Relax
+                                    in Cusco (9 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/thematic/rural-tourism-arequipa-puno-and-cusco" title="Rural tourism: Arequipa, Puno and Cusco">Rural
+                                    tourism: Arequipa, Puno & Cusco (13 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/thematic/deluxe-tour-to-peru" title="Royal Tour">Royal
+                                    Tour (14 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/thematic/peru-a-mystical-experience" title="Peru's Mystic Experience">Peru's
+                                    Mystic Experience (15 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/thematic/adventure-travel-in-peru" title="Adventure Travel in Peru">Adventure
+                                    Travel in Peru (15 days)</a>
+                            </li>
+                            <li><a
+                                href="http://www.perutourism.com/thematic/travel-to-peru-northern-and-southern-kingdoms" title="Northern and Southern Kingdoms">Northern
+                                    & Southern Kingdoms (26 days)</a>
+                            </li>
+                        </ul></li>
+                    <li><a
+                        href="http://www.perutourism.com/customize/customize.htm">Customize
+                            Your Travel</a>
+                    </li>
+                </ul></li>
+
+            <li><a href="" class="our_company">Our Company</a>
+                <ul>
+                    <li class="border_inicio"><a
+                        href="http://www.perutourism.com/we/statement-from-our-president">Statement
+                            from our President</a>
+                    </li>
+                    <li><a
+                        href="http://www.perutourism.com/we/references-from-our-associates">References
+                            from our Associates</a>
+                    </li>
+                    <li><a href="http://www.perutourism.com/we/staff">Our
+                            Staff</a>
+                    </li>
+                    <li><a
+                        href="http://www.perutourism.com/we/policy-of-no-cancellation-fees">$0
+                            Cancellation Policy</a>
+                    </li>
+                    <li><a href="http://www.perutourism.com/we/faq">Why
+                            PeruTourism</a>
+                    </li>
+                    <li><a href="http://www.perutourism.com/we/privacy-policy">Privacy
+                            Policy</a>
+                    </li>
+                    <li><a href="http://www.perutourism.com/sitemap">Site Map</a>
+                    </li>
+                </ul></li>
+
+            <li><a href="#" class="travel_network">Travel Network</a>
+                <ul>
+                    <li class="border_inicio"><a href="http://www.perutourism.com/video/video">Video</a>
+                    </li>
+                    <li><a href="http://blog.perutourism.com/">Customer's
+                            Travel Experiences</a>
+                    </li>
+					<li><a href="http://www.perutourism.com/BlogOficial/">Blog</a>
+                    <li><a href="" class="flecha">Other Countries</a>
+                        <ul style="right: -172px; top: 0px">
+                            <li class="border_inicio"><a href="http://www.chiletourism.net/" target="_blank">Chile-tourism</a>
+                            </li>
+                            <li><a href="http://www.galapagos-tourism.com/" target="_blank">Galapagos-tourism</a>
+                            </li>
+                        </ul></li>
+                </ul></li>
+            <li><a href="http://www.perutourism.com/we/staff" class="staff">Staff</a>
+            </li>
+
+            <li><a href="http://www.perutourism.com/newsletter/free-newsletter" class="free_newsletter">Free Newsletter</a>
+            </li>
+
+        </ul>
+	</div>
+	
+</div>		<div class="cbody-route">
+			<hr>
+			<div>
+				<span class="route1">PeruTourism: </span>
+				<span class="route0"><a href="http://www.perutourism.com/">Home</a> &gt; <a href="http://www.perutourism.com/customize-your-travel.php">Ups</a></span>
+			</div>
+		</div>
+		<div class="ctitle-section cwith100">
+			<h1>Opps, file not found!</h1>
+		</div>	
+		<div class="cbody1_404">
+			<a href="http://www.perutourism.com/"><img src="http://www.perutourism.com/images/img-404.jpg" alt="Sorry - file not found - 404"/></a>
+			<div class="cbody404_msg wo_topb">
+			<p><br/><br/><br/><br/>
+				Sorry, the page or file you requested is not on this server. Please contact us if you have questions or concerns.</p> 
+			<p>
+				You maybe looking for the following pages:<br/><br/>
+			</p>
+			<p>
+				<a href="http://www.perutourism.com/destination/cusco-machu-picchu">Destination Tour - Cusco and Machu Picchu</a>.<br/><br/>
+				<a href="http://www.perutourism.com/destination/family-trip-to-peru">Destination Tour - Family trip to Peru</a>.<br/><br/>
+				<a href="http://www.perutourism.com/thematic/honeymoon-in-machu-picchu">Thematic Tour - Honeymoon in Machu Picchu</a>.<br/><br/>
+				<a href="http://www.perutourism.com/sitemap">Site Map</a>.<br/>
+			</p>
+		</div>
+		</div>
+		
+		<div class="cbody5">
+	<div class="clogo_part">
+    	<div class="clogo_iata"></div>
+	</div>
+	<div>
+    	<div class="link_social_footer">
+			<ul>
+            	<li>
+					<a href="https://www.facebook.com/PeruTourismTravelAgency" target="_blank">
+							<img src="http://www.perutourism.com/images/logofacebook.png" alt="Fans in Facebook" width="40" height="40"/></a>
+                    <a href="https://twitter.com/?lang=es&amp;logged_out=1#!/peru_tourism" target="_blank">
+							  <img src="http://www.perutourism.com/images/logotwitter.png" alt="Follow us in Twitter" width="40" height="40"/></a>
+					<a href="https://plus.google.com/u/0/105920792176906975440/posts" target="_blank">
+							<img src="http://www.perutourism.com/images/logogoogle.png" alt="Follow us in Google Plus" width="40" height="40"/></a>
+					<a href="http://www.youtube.com/user/perutourism?feature=mhee" target="_blank">
+							<img src="http://www.perutourism.com/images/logoyoutube.png" alt="Follow us in Youtube" width="40" height="40"/></a> 
+				</li>
+			</ul>
+		</div>
+		<p>
+			<a href="http://www.perutourism.com/" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru" class="link-foot">Peru Tourism </a> 
+					| 
+			<a href="http://www.perutourism.com/destination/tours" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru" class="link-foot">Destinations Tour Peru</a>  
+				  	| 
+			<a href="http://www.perutourism.com/thematic/tours" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru" class="link-foot">Peru Tours</a> 
+				  	| 
+			<a href="http://www.perutourism.com/customize-your-travel" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru" class="link-foot">Customize your travel</a> 
+				  	|  
+		<a href="http://www.perutourism.com/get-a-personal-quote" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru" class="link-foot">Fast Quotation</a></p>
+		<p>
+				  	<br/>		  
+			<a href="http://www.perutourism.com/destination/cruise.htm" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru" class="link-foot_sub">Cruise Tour</a> 
+				  	- 
+			<a href="http://www.perutourism.com/destination/cusco-machu-picchu" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru" class="link-foot_sub">Machu Picchu Tour</a> 
+				  	- 
+			<a href="http://www.perutourism.com/destination/machu-picchu-and-titicaca-lake" class="link-foot_sub" title="Peru Tourism: Cusco Travel Nazca Lines Tours, Peru Amazon Rainforest, travel to Peru">Machu Picchu &amp; Titicaca Tour</a> 
+				  	- 
+			<a href="http://www.perutourism.com/destination/machu-picchu-and-the-rainforest" class="link-foot_sub">Machu Picchu &amp; Rainforest Tour</a> 
+				  	- 
+			<a href="http://www.perutourism.com/destination/machu-picchu-and-nasca" class="link-foot_sub">Machu Picchu &amp; Nasca Tour</a>
+				  	<br/>
+			<a href="http://www.perutourism.com/destination/inca-trail-to-machu-picchu" class="link-foot_sub">Inca Trail Tour </a>  
+				  	-         
+			<a href="http://www.perutourism.com/destination/machu-picchu-and-the-amazon" class="link-foot_sub">Amazon &amp; Machu Picchu Tour</a> 
+				  	-
+			<a href="http://www.perutourism.com/destination/wonders-of-peru-and-bolivia-tour" class="link-foot_sub"> Peru &amp; Bolivia Tour </a> 
+					-
+			<a href="http://www.perutourism.com/destination/total-peru-tour" class="link-foot_sub">Peru Travel</a> 
+					- 
+			<a href="http://www.perutourism.com/destination/machu-picchu-and-the-rainforest" class="link-foot_sub">Andes &amp; Rainforest Tour</a><br/>
+		            Please let us know your comments <a href="mailto:peru@perutourism.com"><meta itemprop="email" content="peru@perutourism.com"/>peru@perutourism.com</a>.<br/> <br/>
+		            <b>This site © updated 2014 is sponsored by Viajes Pentagrama S.A. All rights reserved.<br/>
+		            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		            	<span itemprop="streetAddress">Av. Larco 101, Suite 1301</span>, <span itemprop="addressLocality">Miraflores</span>, <span itemprop="addressRegion">Lima</span>, <span itemprop="addressCountry">Peru</span>. Phone: <span itemprop="telephone">(511) 2414724</span> Fax: (51 1) 444-0015<br/>
+		        	</span></b>
+		</p>
+	</div>
+	<div class="clogo_part">
+    	<div class="clogo_asta"></div>
+	</div>
+</div>	</div>
+</body>
+</html>
