@@ -28,14 +28,14 @@ Partial Class elogin
             Dim sParamID As String = Request.Params("ID")
             Dim sParamO As String = Request.Params("O")
 
-            ' caso español
-            'https://www.pentagrama.com/perutourism/elogin.aspx?ID=2671253102600    
-            'sParamID = "2733033100784  "
-            'sParamID = "8703441103217         "
+			' caso español
+			' https://www.pentagrama.com/perutourism/elogin.aspx?ID=2671253102600   
+			'sParamID = "2733033100784  "
+			'sParamID = "8703441103217         "
 
-            ' Inicio - Code To redirect app mobile
+			' Inicio - Code To redirect app mobile
 
-            Dim userAgent = Request.UserAgent
+			Dim userAgent = Request.UserAgent
             Dim pattern = ConfigurationManager.AppSettings("PatternMobile")
             Dim url = ConfigurationManager.AppSettings("UrlNegociacionMobile")
             If (System.Text.RegularExpressions.Regex.IsMatch(userAgent, pattern, System.Text.RegularExpressions.RegexOptions.IgnoreCase)) Then

@@ -24,11 +24,37 @@ Partial Class itop
 #End Region
 
     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load, Me.Load
-        If Not Page.IsPostBack Then
-            'CantidadPropuestas()
-            'LeePedido()
-        End If
-    End Sub
+		If Not Page.IsPostBack Then
+
+			Dim sIdPedido As String = ""
+			Dim iCodCliente As Integer
+
+			Dim cd As New SqlCommand
+			Dim dr As SqlDataReader
+			cd.Connection = cn
+			cd.CommandText = "VISA_Pedido_S"
+			cd.CommandType = CommandType.StoredProcedure
+			'cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = "161"
+			cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = Session("NroPedido")
+			Try
+				cn.Open()
+				dr = cd.ExecuteReader
+				Do While dr.Read()
+					sIdPedido = dr.GetValue(dr.GetOrdinal("IdPedido"))
+					iCodCliente = dr.GetValue(dr.GetOrdinal("CodCliente"))
+
+				Loop
+				dr.Close()
+			Finally
+				cn.Close()
+			End Try
+
+
+			lblCodCliente.Text = iCodCliente
+			'CantidadPropuestas()
+			'LeePedido()
+		End If
+	End Sub
 
 
     'Private Sub CantidadPropuestas()
@@ -95,34 +121,48 @@ Partial Class itop
 
 
     Private Sub ImageButton1_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles ImageButton1.Click
-        Dim sIdPedido As String = ""
 
-        Dim cd As New SqlCommand
-        Dim dr As SqlDataReader
-        cd.Connection = cn
-        cd.CommandText = "VISA_Pedido_S"
-        cd.CommandType = CommandType.StoredProcedure
-        cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = Session("NroPedido")
-        Try
-            cn.Open()
-            dr = cd.ExecuteReader
-            Do While dr.Read()
-                sIdPedido = dr.GetValue(dr.GetOrdinal("IdPedido"))
-            Loop
-            dr.Close()
-        Finally
-            cn.Close()
-        End Try
 
-        Session("Opcion") = 1
-        Dim URL_PagoVisa As String = System.Configuration.ConfigurationSettings.AppSettings("URL_PagosVISA")
-        Dim script As String = ""
+		Dim sIdPedido As String = ""
+		Dim iCodCliente As Integer
 
-        script = "<SCRIPT languange='JavaScript'>" & _
-                 "parent.main.location.href='" & URL_PagoVisa & "/Pago.aspx?ID=" & sIdPedido & "';" & _
-                 "</SCRIPT>"
-        RegisterStartupScript("Etiq1", script)
-    End Sub
+		Dim cd As New SqlCommand
+		Dim dr As SqlDataReader
+		cd.Connection = cn
+		cd.CommandText = "VISA_Pedido_S"
+		cd.CommandType = CommandType.StoredProcedure
+		'cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = "161"
+		cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = Session("NroPedido")
+		Try
+			cn.Open()
+			dr = cd.ExecuteReader
+			Do While dr.Read()
+				sIdPedido = dr.GetValue(dr.GetOrdinal("IdPedido"))
+				iCodCliente = dr.GetValue(dr.GetOrdinal("CodCliente"))
+
+			Loop
+			dr.Close()
+		Finally
+			cn.Close()
+		End Try
+
+		'Session("Opcion") = 1
+		'Dim URL_PagoVisa As String = System.Configuration.ConfigurationSettings.AppSettings("URL_PagosVISA")
+		'Dim script As String = ""
+
+		'script = "<SCRIPT languange='JavaScript'>" & _
+		'		 "parent.main.location.href='" & URL_PagoVisa & "/Pago.aspx?ID=" & sIdPedido & "';" & _
+		'		 "</SCRIPT>"
+		'RegisterStartupScript("Etiq1", script)
+
+		Dim URL_PagosVISALINK As String = System.Configuration.ConfigurationSettings.AppSettings("URL_PagosVISALINK")
+		Dim script As String = ""
+
+		script = "<SCRIPT languange='JavaScript'>" & _
+				 "parent.location.href='" & URL_PagosVISALINK & "';" & "alert('Please, for payment copy this code : " + iCodCliente.ToString & "');" & _
+				 "</SCRIPT>"
+		RegisterStartupScript("Etiq1", script)
+	End Sub
 
     Protected Sub ImageButtonItineraries_Click(ByVal sender As Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles ImageButtonItineraries.Click
         Dim script As String = ""
