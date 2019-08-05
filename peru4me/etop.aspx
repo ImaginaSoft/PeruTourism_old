@@ -29,9 +29,9 @@ function go(URL) {
 										<td width="60%"><font face="Arial, Helvetica, sans-serif" color="#277e49"><b>Su Página de 
 													Viaje Personalizada</b></font></td>
 										<td width="40%"><font face="Arial, Helvetica, sans-serif"><b> Llámenos: (51 1) 241-4724<br>
-													<asp:label id="lblTollFree" runat="server"></asp:label>
-												</b></font>
-										</td>
+													<asp:Label ID="lblTollFree" runat="server"></asp:Label>
+										Mi Código de cliente : <asp:Label ID="lblCodCliente" runat="server"></asp:Label></b>
+									                </font></td>
 									</tr>
 								</table>
 							</div>
