@@ -34,9 +34,11 @@ Partial Class itop
 			cd.Connection = cn
 			cd.CommandText = "VISA_Pedido_S"
 			cd.CommandType = CommandType.StoredProcedure
-			'cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = "161"
-			cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = Session("NroPedido")
-			Try
+            'cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = "161"
+            cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = Session("NroPedido")
+            ''cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = "48659"
+
+            Try
 				cn.Open()
 				dr = cd.ExecuteReader
 				Do While dr.Read()

@@ -24,20 +24,21 @@ Partial Class etop
 
     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         If Not Page.IsPostBack Then
-			'CantidadPropuestas()
-			'lbtPropuestas.Text = "Tus itinerarios de viaje<BR>Clic aquí "
-			'LeePedido()
+            'CantidadPropuestas()
+            'lbtPropuestas.Text = "Tus itinerarios de viaje<BR>Clic aquí "
+            'LeePedido()
 
-			Dim sIdPedido As String = ""
-			Dim iCodCliente As Integer
+            Dim sIdPedido As String = ""
+            Dim iCodCliente As Integer
 
 			Dim cd As New SqlCommand
 			Dim dr As SqlDataReader
 			cd.Connection = cn
 			cd.CommandText = "VISA_Pedido_S"
 			cd.CommandType = CommandType.StoredProcedure
-			cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = Session("NroPedido")
-			Try
+            cd.Parameters.Add("@NroPedido", SqlDbType.Int).Value = Session("NroPedido")
+
+            Try
 				cn.Open()
 				dr = cd.ExecuteReader
 				Do While dr.Read()
