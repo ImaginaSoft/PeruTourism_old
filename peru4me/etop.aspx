@@ -13,12 +13,13 @@
 
         .codCliente {
             text-decoration: solid;
-            color: red;
+            color: white;
             font-size: 22px;
         }
 
         .descripcion {
             font-size: 15px;
+            color: white;
         }
     </style>
     <script language="javascript">
@@ -44,9 +45,9 @@
                                 <tr>
                                     <td width="60%"><font face="Arial, Helvetica, sans-serif" color="#277e49"><b>Su Página de 
 													Viaje Personalizada</b></font></td>
-                                    <td width="40%"><font face="Arial, Helvetica, sans-serif"><b><%--Llámenos: (51 1) 241-4724--%><br>
-                                        <asp:Label ID="lblTollFree" runat="server" CssClass="descripcion">Código de cliente : </asp:Label>
-                                        <asp:Label ID="lblCodCliente" runat="server" CssClass="codCliente"></asp:Label></b>
+                                    <td width="40%"><font face="Arial, Helvetica, sans-serif"><b>Llámenos: (51 1) 241-4724<br>
+                                        <asp:Label ID="lblTollFree" runat="server" CssClass="descripcion"></asp:Label>
+                                        <%--                                        <asp:Label ID="lblCodCliente" runat="server" CssClass="codCliente"></asp:Label></b>--%>
                                     </font></td>
                                 </tr>
                             </table>
@@ -88,16 +89,21 @@
                         <td width="1" rowspan="3" bgcolor="#ffffff">
                             <img src="images/transparent.gif" width="2" height="1"></td>
                         <td width="162" rowspan="3" valign="bottom" bgcolor="#366ab5">
-                            <asp:ImageButton ID="ImageButton1" runat="server"
-                                ImageUrl="~/images/pagovisa.png"></asp:ImageButton>
+                           <%-- <asp:ImageButton ID="ImageButton1" runat="server"
+                                ImageUrl="~/images/pagolink.png" Style="margin-bottom: 0px"></asp:ImageButton>--%>
+                            <a title="VisaLink" href="https://www.visanetlink.pe/pagoseguro/PERUTOURISM/26688" target="_blank"><img src="images/pagolink.gif" alt="VisaLink" /></a>
+
                         </td>
                         <td width="0%" rowspan="3" bgcolor="#ffffff">
                             <img src="images/transparent.gif" width="2" height="1"></td>
 
                         <td width="151" rowspan="3" valign="middle" bgcolor="#f6a51b">
                             <div align="center">
-                                <asp:ImageButton ID="ImageButton2" runat="server"
-                                    ImageUrl="~/images/mc_accpt_050_gif.gif"></asp:ImageButton>
+                                <%--<asp:ImageButton ID="ImageButton2" runat="server"
+                                    ImageUrl="~/images/mc_accpt_050_gif.gif"></asp:ImageButton>--%>
+                                <asp:Label ID="Label1" runat="server" CssClass="descripcion">Tu Código de cliente : </asp:Label>
+                                <asp:Label ID="lblCodCliente" runat="server" CssClass="codCliente"></asp:Label>
+                            </b>
                         </td>
                 </tr>
                 <tr>
