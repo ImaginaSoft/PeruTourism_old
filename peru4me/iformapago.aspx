@@ -71,7 +71,8 @@
 (*) The Inca Trail is not included in this Cancelation policy.<br />
 (*) The Amazon cruises are not included in this Cancelation policy.<br />
 (*) Valid for cancellations 45 days before your arrival.<br />
-(*) The domestic or international air tickets are not included in this Cancelation Policy. 
+(*) The domestic or international air tickets are not included in this Cancelation Policy.<br /> 
+(*) The amount to be refunded will have a charge of $50 per passenger.
 </p>
 <p style="height: 2px"></p>
     </td>
