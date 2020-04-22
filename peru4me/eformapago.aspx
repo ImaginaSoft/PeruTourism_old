@@ -72,7 +72,8 @@
 (*) El Camino Inca a Machu Picchu no está incluido en esta política.<br /> 
 (*) Los cruceros en el Amazonas no están incluidos en esta política.<br /> 
 (*) Válido para las cancelaciones 45 días antes de su llegada.<br />  
-(*) Los boletos aéreos nacionales o Internacional no están incluidos en esta política de cancelación.
+(*) Los boletos aéreos nacionales o Internacional no están incluidos en esta política de cancelación.<br />  
+(*) El importe a reembolsar tendrá un cargo de 50 dólares por pasajero.
 </p>
 <p style="height: 2px"></p>
     </td>
@@ -100,6 +101,7 @@ Crédito u otro medio de pago previa coordinación con PeruTurismo.
     <p align="justify" ><b>Una vez iniciado su viaje al Perú:</b><br />
     La penalidad por la anulación por parte del cliente una vez iniciado el viaje a Perú será del 100% del precio total pactado.
 </p>
+
 <p style="height: 2px"></p>
       
     </td>
